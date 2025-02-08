@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Contact Form Miles Rousseau</title>
+    <style>
+        /* Background coloring*/
+        body {
+            background-color: orchid;
+            font-family: monospace;
+            text-align: center;
+        }
+
+        /* Input field*/
+        input {
+            width: 80%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        /* Further background color edits*/ 
+        .contactUs {
+            background-color: orchid;
+            margin: 10px;
+            width: 50%;
+        
+        }
+        /* Labeling*/
+        label {
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+
+        }
+
+        /* Hovering effect on sumbit button */ 
+        input[type="submit"]:hover {
+            background-color: #45a049;
+
+        }
+
+    </style>
+</head>
+
+<body>
+   <h1> INST377 - Lab 2 - Contact Me </h1> 
+    <form name="Miles Lab 2 Contact Form" method="get" action="thankyou.html">
+        <div class="contactUs">
+            <!-- User name and Email Details -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <br>
+            <hr>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="test@umd.edu" required>
+            <br>
+            <hr>
+            <input type="submit" value="Sumbit!">
+            
+        </div>
+
+    </form>
+</body>
+
+</html>
